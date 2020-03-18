@@ -9,5 +9,16 @@ public class Main {
                 "RR", 2, 100);
 
         Car_test.Selling_the_car(100);
+        String b = Car_test.getBrand();
+        String c = Car_test.getColor();
+        System.out.println("The colour of the car is "+c+" The brand of the car is "+b);
+
+
+        double oldEC = Car_test.getEngine_Capacity();
+        System.out.println("Old engine capacity is " + oldEC);
+        Car_test.setEngine_Capacity(5);
+        double newEC = Car_test.getEngine_Capacity();
+        System.out.println("New engine capacity is " + newEC);
+
     }
 }
