@@ -25,6 +25,10 @@ public class Car {
         return this.brand;
     }
 
+    public double getEngine_Capacity() {
+        return this.engine_capacity;
+    }
+
     public void setEngine_Capacity(double engine_capacity) {
         this.engine_capacity=engine_capacity;
     }
